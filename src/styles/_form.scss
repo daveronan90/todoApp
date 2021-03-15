@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid darken($light-grey, 7%);
+  > * {
+    margin: $m-size;
+  }
+  width: 50rem;
+}

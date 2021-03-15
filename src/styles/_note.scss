@@ -1,0 +1,10 @@
+.note {
+  align-items: center;
+  border: 1px solid darken($light-grey, 7%);
+  border-top: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 $m-size 0 $m-size;
+  width: 50rem;
+}
